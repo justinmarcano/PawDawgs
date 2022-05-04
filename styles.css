@@ -173,6 +173,12 @@ footer{
 .title_header{
     font-size: 3rem
 }
+.number{
+    color:white;
+}
+.number:active{
+    color:pink;
+}
 @media (max-width: 900) {
     .title_header{
         font-size: 3rem
@@ -215,4 +221,3 @@ footer{
         font-size: 2rem;
         }
     }
-}
