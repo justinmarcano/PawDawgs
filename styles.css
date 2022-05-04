@@ -63,33 +63,6 @@ a{
 .about_me_header{
     font-size: 3rem;
 }
-@media (max-width: 900) {
-    .title_header{
-        font-size: 5rem;
-    }
-
-    .about_me_header{
-        font-size: 3rem;
-    }
-}
-
-@media (max-width: 700) {
-    .title_header{
-        font-size: 1rem;
-    }
-    .overlay {
-        position: absolute;
-        left: 0%;
-        right: 0%;
-        top: 30%;
-        z-index:1;
-        text-align: center;
-    }
-    .about_me_header{
-        font-size: 2rem;
-    }
-}
-
 .navbar-toggler:focus {
     color: transparent;
     background-color: transparent;
@@ -174,6 +147,46 @@ footer{
    .copy_right:hover{
        color: pink; 
    }
+   .bridge_the_gap{
+       color: white;
+   }
+   .bridge_the_gap:hover{
+       cursor: pointer;
+       color: pink;
+   }
+   .profile_photo{
+       filter: grayscale(100%);
+       transition: filter .5s;
+   }
+   .profile_photo:hover{
+       filter: grayscale(0);
+       box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;@media (max-width: 900) {
+    .title_header{
+        font-size: 5rem;
+    }
+
+    .about_me_header{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 700) {
+    .title_header{
+        font-size: 1rem;
+    }
+    .overlay {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 30%;
+        z-index:1;
+        text-align: center;
+    }
+    .about_me_header{
+        font-size: 2rem;
+    }
+}
+
 @media (max-width: 500px) {
     .title_header{
         font-size: 1.6rem;
