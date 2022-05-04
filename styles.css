@@ -1,3 +1,13 @@
+body{
+    background-color: #061E20;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.content{
+    display: none;
+}
 .title_header{
     color: white
 }
@@ -53,15 +63,144 @@
     font-size: 3rem;
 }
 
-@media (max-width: 900) {
+.about_me_header{
+    font-size: 3rem;
+}
+.navbar-toggler:focus {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.loader{
+    height: 100vh;
+    width: 20vw;
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    height: auto;
+    width: 100vw;
+    padding-top: 50px;
+    color: #fff;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #82ACB1;
+    border: 1.1px solid #82ACB1;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: .8rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover{
+    color: pink;
+    border: 1.1px solid pink
+}
+.footer-menu{
+    float: right;
+  }
+  
+  .footer-menu ul{
+    display: flex;
+  }
+  
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+
+  .footer-bottom{
+    background: transparent;
+    width: 100vw;    
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+   .copy_right{
+       text-decoration: none;
+       color: #82ACB1;
+   }
+   .copy_right:hover{
+       color: pink; 
+   }
+   .bridge_the_gap{
+       color: white;
+   }
+   .bridge_the_gap:hover{
+       cursor: pointer;
+       color: pink;
+   }
+   .profile_photo{
+       filter: grayscale(100%);
+       transition: filter .5s;
+   }
+   .profile_photo:hover{
+       filter: grayscale(0);
+       box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;@media (max-width: 900) {
     .title_header{
         font-size: 5rem;
     }
-}
 
+    .about_me_header{
+        font-size: 3rem;
+        }
+    }
+}
+.title_header{
+    font-size: 3rem
+}
+.number{
+    color:white;
+}
+.number:active{
+    color:#82ACB1;
+}
+.number:hover{
+    color: #82ACB1;
+}
+@media (max-width: 900) {
+    .title_header{
+        font-size: 3rem
+    }
+}
 @media (max-width: 700) {
     .title_header{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .overlay {
         position: absolute;
@@ -71,11 +210,17 @@
         z-index:1;
         text-align: center;
     }
+    .about_me_header{
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 500px) {
     .title_header{
-        font-size: 1rem;
+        font-size: 1.6rem;
+    }
+    .service_locations{
+        font-size: small;
     }
 
 .overlay {
@@ -86,4 +231,7 @@
     z-index:1;
     text-align: center;
     }
-}
+    .about_me_header{
+        font-size: 2rem;
+        }
+    }
