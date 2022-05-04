@@ -180,7 +180,7 @@ footer{
 }
 @media (max-width: 700) {
     .title_header{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .overlay {
         position: absolute;
@@ -197,7 +197,7 @@ footer{
 
 @media (max-width: 500px) {
     .title_header{
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
     .service_locations{
         font-size: small;
