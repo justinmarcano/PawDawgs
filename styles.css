@@ -81,6 +81,9 @@ a{
     .title_header{
         font-size: 1rem;
     }
+    .service_locations{
+        font-size: small;
+    }
 
 .overlay {
     position: absolute;
