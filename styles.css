@@ -177,7 +177,10 @@ footer{
     color:white;
 }
 .number:active{
-    color:pink;
+    color:#82ACB1;
+}
+.number:hover{
+    color: #82ACB1;
 }
 @media (max-width: 900) {
     .title_header{
