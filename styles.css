@@ -5,6 +5,9 @@ a{
     color:white;
     text-decoration: none;
 }
+.content{
+    display: none;
+}
 .title_header{
     color: white
 }
@@ -69,6 +72,14 @@ a{
     border-color: transparent;
 }
 
+.loader{
+    height: 20vh;
+    width: 20vw;
+    overflow: hidden;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
 footer{
     position: absolute;
     bottom: 0;
