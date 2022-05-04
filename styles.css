@@ -1,3 +1,6 @@
+body{
+    background-color: #061E20;
+}
 a{
     color:white;
     text-decoration: none;
@@ -57,9 +60,16 @@ a{
     font-size: 3rem;
 }
 
+.about_me_header{
+    font-size: 3rem;
+}
 @media (max-width: 900) {
     .title_header{
         font-size: 5rem;
+    }
+
+    .about_me_header{
+        font-size: 3rem;
     }
 }
 
@@ -75,11 +85,98 @@ a{
         z-index:1;
         text-align: center;
     }
+    .about_me_header{
+        font-size: 2rem;
+    }
 }
 
+.navbar-toggler:focus {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    height: auto;
+    width: 100vw;
+    padding-top: 50px;
+    color: #fff;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #82ACB1;
+    border: 1.1px solid #82ACB1;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: .8rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover{
+    color: pink;
+    border: 1.1px solid pink
+}
+.footer-menu{
+    float: right;
+  }
+  
+  .footer-menu ul{
+    display: flex;
+  }
+  
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+
+  .footer-bottom{
+    background: transparent;
+    width: 100vw;    
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+   .copy_right{
+       text-decoration: none;
+       color: #82ACB1;
+   }
+   .copy_right:hover{
+       color: pink; 
+   }
 @media (max-width: 500px) {
     .title_header{
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
     .service_locations{
         font-size: small;
@@ -92,5 +189,8 @@ a{
     top: 40%;
     z-index:1;
     text-align: center;
+    }
+    .about_me_header{
+        font-size: 2rem;
     }
 }
