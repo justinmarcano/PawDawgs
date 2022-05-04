@@ -1,0 +1,89 @@
+.title_header{
+    color: white
+}
+.title_header:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+.number:active{
+    color: white;
+}
+.overlay_btn{
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.overlay_btn:hover{
+    background-color: pink;
+    color: white;
+    text-shadow: 2px 2px darkgrey;
+    box-shadow: 3px 3px 5px darkgrey;
+    opacity: .9;
+
+}
+/* Flexible iFrame */
+ 
+.flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.flexible-container video,   
+.flexible-container object,  
+.flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.overlay {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 30%;
+    z-index:1;
+    text-align: center;
+}
+.title_header{
+    font-size: 3rem;
+}
+
+@media (max-width: 900) {
+    .title_header{
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 700) {
+    .title_header{
+        font-size: 1rem;
+    }
+    .overlay {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 30%;
+        z-index:1;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .title_header{
+        font-size: 1rem;
+    }
+
+.overlay {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 40%;
+    z-index:1;
+    text-align: center;
+    }
+}
